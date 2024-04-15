@@ -2,8 +2,4 @@
 
 
 
-
-
-
-
 console.log("Hello         world")
