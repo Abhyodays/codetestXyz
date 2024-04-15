@@ -16,7 +16,8 @@ namespace ConsoleApp1.Services
 
         public static bool IsEven(int num)
         {
-            return num % 2 == 0;
+            if (num % 2 == 0) return false;
+            return true;
         }
     }
 }
