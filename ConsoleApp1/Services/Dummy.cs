@@ -1,6 +1,5 @@
 // do for another
-//
-public class Dummy
+public class Dummy2
 {
-
+    //
 }
