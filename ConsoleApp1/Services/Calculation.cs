@@ -4,11 +4,14 @@ namespace ConsoleApp1.Services
     {
         public static bool IsPrime(int num)
         {
-            if (num < 2) return false;
+            if (num < 2)
+            {
+                return false;
+            }
             int i = 2;
             while (i <= num / i)
             {
-                if (num % i == 0) return false;
+                if (num % i == 0) { return false; };
                 i++;
             }
             return true;
@@ -16,7 +19,9 @@ namespace ConsoleApp1.Services
 
         public static bool IsEven(int num)
         {
-            return num % 2 == 0;
+            if (num % 2 == 0)
+                return false;
+            return true;
         }
     }
 }
