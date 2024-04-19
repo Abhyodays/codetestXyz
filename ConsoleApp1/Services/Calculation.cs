@@ -6,7 +6,7 @@ namespace ConsoleApp1.Services
         {
             if (num < 2)
             {
-                return false;
+                return false; // lla number less than 2 are non prime
             }
             int i = 2;
             while (i <= num / i)
